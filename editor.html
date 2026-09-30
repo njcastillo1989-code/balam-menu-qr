@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Editor de precios · BALAM NIGHT CLUB</title>
+<style>
+:root{color-scheme:dark;--gold:#f5c451;--bg:#090909;--panel:#171717;--line:#4a3914;--muted:#c7c7c7}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#f5f5f5;font:16px/1.45 Arial,sans-serif}
+header{padding:22px 16px;text-align:center;border-bottom:1px solid var(--line);background:#111}
+header img{width:92px;height:92px;object-fit:contain;border-radius:50%;margin-bottom:8px}
+h1{margin:0;color:var(--gold);font-size:clamp(22px,4vw,32px)}header p{color:var(--muted);margin:8px auto 0;max-width:720px}
+main{max-width:1200px;margin:auto;padding:16px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 20px}
+button{background:var(--gold);color:#111;border:0;border-radius:8px;padding:12px 16px;font-weight:700;cursor:pointer}
+button.secondary{background:#252525;color:#fff;border:1px solid #555}
+.notice{border:1px solid var(--line);background:#18140a;padding:13px;border-radius:10px;color:#f6df9e;margin:14px 0}
+section{background:var(--panel);border:1px solid #333;border-radius:12px;margin:18px 0;overflow:hidden}
+h2{font-size:20px;color:var(--gold);padding:14px 16px;margin:0;border-bottom:1px solid #333}
+.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:760px}th,td{padding:9px 10px;border-bottom:1px solid #303030;text-align:left}th{font-size:12px;color:var(--gold);text-transform:uppercase;letter-spacing:.04em;position:sticky;top:0;background:#1d1d1d}
+td.name{min-width:180px}td.name small{display:block;color:#aaa;margin-top:3px}
+input{width:100%;min-width:88px;background:#080808;border:1px solid #555;border-radius:6px;color:#fff;padding:10px;font-size:15px}
+input:focus{outline:2px solid var(--gold);border-color:var(--gold)}
+.status{color:#b8f1bd;min-height:1.5em}.foot{font-size:13px;color:#aaa;margin:22px 0}
+@media(max-width:600px){main{padding:10px}header{padding:18px 12px}td,th{padding:8px}}
+</style>
+</head>
+<body>
+<header>
+  <img src="assets/balam-logo.jpeg" alt="BALAM NIGHT CLUB">
+  <h1>Editor de precios · BALAM NIGHT CLUB</h1>
+  <p>Modifica los importes en las casillas. No necesitas programar. Los cambios se guardan en un archivo que después tendrás que subir a tu página web.</p>
+</header>
+<main>
+  <div class="notice"><strong>Importante:</strong> este editor no cambia la página pública por sí solo. Al terminar, descarga el archivo actualizado y reemplaza <code>menu-data.js</code> en tu repositorio de GitHub.</div>
+  <div class="actions">
+    <button id="download">Descargar menú actualizado</button>
+    <button class="secondary" id="reset">Restaurar valores originales</button>
+  </div>
+  <div id="status" class="status" role="status"></div>
+  <div id="editor"></div>
+  <p class="foot">Deja vacía una casilla si ese precio no está confirmado. Revisa los importes antes de publicar. Mantén el nombre del archivo como <strong>menu-data.js</strong>.</p>
+</main>
+<script src="menu-data.js"></script>
+<script>
+const original = JSON.parse(JSON.stringify(window.BALAM_MENU));
+let data = JSON.parse(JSON.stringify(original));
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function inputCell(value, path, label) {
+  return `<td><input type="number" min="0" step="0.01" value="${esc(value)}" data-path="${path}" aria-label="${esc(label)}" placeholder="—"></td>`;
+}
+function renderTable(title, rows, kind) {
+  let headers, body;
+  if(kind==="drinks"){
+    headers=["Producto / Product","Botella MXN","Copa MXN","Botella USD","Copa USD"];
+    body=rows.map((p,i)=>`<tr><td class="name">${esc(p.name_es)}<small>${esc(p.name_en)} · ${esc(p.category)}</small></td>
+      ${inputCell(p.bottle_mxn,`drinks.${i}.bottle_mxn`,p.name_es+" botella MXN")}
+      ${inputCell(p.pour_mxn,`drinks.${i}.pour_mxn`,p.name_es+" copa MXN")}
+      ${inputCell(p.bottle_usd,`drinks.${i}.bottle_usd`,p.name_es+" botella USD")}
+      ${inputCell(p.pour_usd,`drinks.${i}.pour_usd`,p.name_es+" copa USD")}</tr>`).join("");
+  } else {
+    headers=["Producto / Product", "Precio MXN", "Precio USD"];
+    body=rows.map((p,i)=>`<tr><td class="name">${esc(p.name_es)}<small>${esc(p.name_en)}</small></td>
+      ${inputCell(p.price_mxn,`${kind}.${i}.price_mxn`,p.name_es+" precio MXN")}
+      ${inputCell(p.price_usd,`${kind}.${i}.price_usd`,p.name_es+" precio USD")}</tr>`).join("");
+  }
+  return `<section><h2>${title} (${rows.length})</h2><div class="tablewrap"><table><thead><tr>${headers.map(h=>`<th>${h}</th>`).join("")}</tr></thead><tbody>${body}</tbody></table></div></section>`;
+}
+function draw(){
+  $("#editor").innerHTML = renderTable("Bebidas y botellas / Drinks & Bottles",data.drinks,"drinks")
+    + renderTable("Hookahs",data.hookahs,"hookahs")
+    + renderTable("Alimentos / Food",data.food,"food");
+  $("#editor").querySelectorAll("input[data-path]").forEach(el=>el.addEventListener("change",()=>{
+    const [arr,index,key]=el.dataset.path.split(".");
+    data[arr][Number(index)][key]=el.value.trim();
+    $("#status").textContent="Cambio listo. Descarga el archivo cuando termines.";
+  }));
+}
+$("#download").addEventListener("click",()=>{
+  const content="window.BALAM_MENU = "+JSON.stringify(data,null,2)+";\n";
+  const blob=new Blob([content],{type:"text/javascript;charset=utf-8"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");a.href=url;a.download="menu-data.js";a.click();
+  URL.revokeObjectURL(url);
+  $("#status").textContent="Archivo descargado. Ahora reemplaza menu-data.js en GitHub y espera a que se publique.";
+});
+$("#reset").addEventListener("click",()=>{data=JSON.parse(JSON.stringify(original));draw();$("#status").textContent="Valores originales restaurados en este editor."});
+draw();
+</script>
+</body>
+</html>
