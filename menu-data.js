@@ -1,0 +1,710 @@
+window.BALAM_MENU = {
+  "drinks": [
+    {
+      "category": "Rum",
+      "name_es": "Bacardí Carta Blanca",
+      "name_en": "Bacardi Carta Blanca",
+      "bottle_mxn": "2300",
+      "pour_mxn": "180",
+      "bottle_usd": "136",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Rum",
+      "name_es": "Bacardí Añejo",
+      "name_en": "Bacardi Añejo",
+      "bottle_mxn": "2300",
+      "pour_mxn": "180",
+      "bottle_usd": "136",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Rum",
+      "name_es": "Havana 7 Años",
+      "name_en": "Havana 7 Years",
+      "bottle_mxn": "3200",
+      "pour_mxn": "220",
+      "bottle_usd": "189",
+      "pour_usd": "13"
+    },
+    {
+      "category": "Rum",
+      "name_es": "Zacapa 23",
+      "name_en": "Zacapa 23",
+      "bottle_mxn": "3500",
+      "pour_mxn": "280",
+      "bottle_usd": "206",
+      "pour_usd": "17"
+    },
+    {
+      "category": "Rum",
+      "name_es": "Captain Morgan",
+      "name_en": "Captain Morgan",
+      "bottle_mxn": "2400",
+      "pour_mxn": "180",
+      "bottle_usd": "142",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Cognac & Brandy",
+      "name_es": "Hennessy VS",
+      "name_en": "Hennessy VS",
+      "bottle_mxn": "3588",
+      "pour_mxn": "210",
+      "bottle_usd": "212",
+      "pour_usd": "13"
+    },
+    {
+      "category": "Cognac & Brandy",
+      "name_es": "Hennessy VSOP",
+      "name_en": "Hennessy VSOP",
+      "bottle_mxn": "4188",
+      "pour_mxn": "360",
+      "bottle_usd": "247",
+      "pour_usd": "22"
+    },
+    {
+      "category": "Cognac & Brandy",
+      "name_es": "Rémy Martin VSOP",
+      "name_en": "Rémy Martin VSOP",
+      "bottle_mxn": "3948",
+      "pour_mxn": "336",
+      "bottle_usd": "233",
+      "pour_usd": "20"
+    },
+    {
+      "category": "Cognac & Brandy",
+      "name_es": "Martell VS",
+      "name_en": "Martell VS",
+      "bottle_mxn": "3588",
+      "pour_mxn": "216",
+      "bottle_usd": "212",
+      "pour_usd": "13"
+    },
+    {
+      "category": "Cognac & Brandy",
+      "name_es": "Martell VSOP",
+      "name_en": "Martell VSOP",
+      "bottle_mxn": "3948",
+      "pour_mxn": "336",
+      "bottle_usd": "233",
+      "pour_usd": "20"
+    },
+    {
+      "category": "Cognac & Brandy",
+      "name_es": "Torres 10",
+      "name_en": "Torres 10",
+      "bottle_mxn": "2520",
+      "pour_mxn": "180",
+      "bottle_usd": "149",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Gin",
+      "name_es": "Tanqueray",
+      "name_en": "Tanqueray",
+      "bottle_mxn": "2988",
+      "pour_mxn": "204",
+      "bottle_usd": "176",
+      "pour_usd": "12"
+    },
+    {
+      "category": "Gin",
+      "name_es": "Bombay Sapphire",
+      "name_en": "Bombay Sapphire",
+      "bottle_mxn": "2988",
+      "pour_mxn": "204",
+      "bottle_usd": "212",
+      "pour_usd": "16"
+    },
+    {
+      "category": "Gin",
+      "name_es": "Beefeater",
+      "name_en": "Beefeater",
+      "bottle_mxn": "2588",
+      "pour_mxn": "264",
+      "bottle_usd": "176",
+      "pour_usd": "12"
+    },
+    {
+      "category": "Gin",
+      "name_es": "Beefeater Flavors",
+      "name_en": "Beefeater Flavors",
+      "bottle_mxn": "2988",
+      "pour_mxn": "204",
+      "bottle_usd": "176",
+      "pour_usd": "12"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Johnnie Walker Red Label",
+      "name_en": "Johnnie Walker Red Label",
+      "bottle_mxn": "2400",
+      "pour_mxn": "180",
+      "bottle_usd": "142",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Johnnie Walker Black Label",
+      "name_en": "Johnnie Walker Black Label",
+      "bottle_mxn": "2999",
+      "pour_mxn": "252",
+      "bottle_usd": "177",
+      "pour_usd": "15"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Johnnie Walker Blue Label",
+      "name_en": "Johnnie Walker Blue Label",
+      "bottle_mxn": "10000",
+      "pour_mxn": "612",
+      "bottle_usd": "589",
+      "pour_usd": "36"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Buchanan's 12",
+      "name_en": "Buchanan's 12",
+      "bottle_mxn": "3468",
+      "pour_mxn": "250",
+      "bottle_usd": "204",
+      "pour_usd": "15"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Buchanan's 18",
+      "name_en": "Buchanan's 18",
+      "bottle_mxn": "4788",
+      "pour_mxn": "300",
+      "bottle_usd": "282",
+      "pour_usd": "18"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Jack Daniel's",
+      "name_en": "Jack Daniel's",
+      "bottle_mxn": "2388",
+      "pour_mxn": "220",
+      "bottle_usd": "141",
+      "pour_usd": "13"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Jack Daniel's Honey",
+      "name_en": "Jack Daniel's Honey",
+      "bottle_mxn": "2628",
+      "pour_mxn": "204",
+      "bottle_usd": "155",
+      "pour_usd": "12"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Chivas 12",
+      "name_en": "Chivas 12",
+      "bottle_mxn": "3588",
+      "pour_mxn": "250",
+      "bottle_usd": "212",
+      "pour_usd": "16"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Macallan 12",
+      "name_en": "Macallan 12",
+      "bottle_mxn": "3828",
+      "pour_mxn": "300",
+      "bottle_usd": "226",
+      "pour_usd": "18"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Jameson",
+      "name_en": "Jameson",
+      "bottle_mxn": "3600",
+      "pour_mxn": "300",
+      "bottle_usd": "212",
+      "pour_usd": "18"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Crown Royal",
+      "name_en": "Crown Royal",
+      "bottle_mxn": "3000",
+      "pour_mxn": "280",
+      "bottle_usd": "177",
+      "pour_usd": "17"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Fireball",
+      "name_en": "Fireball",
+      "bottle_mxn": "4200",
+      "pour_mxn": "280",
+      "bottle_usd": "248",
+      "pour_usd": "17"
+    },
+    {
+      "category": "Whisky",
+      "name_es": "Maker's Mark",
+      "name_en": "Maker's Mark",
+      "bottle_mxn": "3000",
+      "pour_mxn": "310",
+      "bottle_usd": "177",
+      "pour_usd": "19"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Don Julio Blanco",
+      "name_en": "Don Julio Blanco",
+      "bottle_mxn": "3960",
+      "pour_mxn": "288",
+      "bottle_usd": "233",
+      "pour_usd": "17"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Don Julio Reposado",
+      "name_en": "Don Julio Reposado",
+      "bottle_mxn": "4560",
+      "pour_mxn": "336",
+      "bottle_usd": "269",
+      "pour_usd": "20"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Don Julio Añejo",
+      "name_en": "Don Julio Añejo",
+      "bottle_mxn": "5160",
+      "pour_mxn": "372",
+      "bottle_usd": "304",
+      "pour_usd": "22"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Don Julio 70",
+      "name_en": "Don Julio 70",
+      "bottle_mxn": "4680",
+      "pour_mxn": "336",
+      "bottle_usd": "276",
+      "pour_usd": "20"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Don Julio 1942",
+      "name_en": "Don Julio 1942",
+      "bottle_mxn": "12588",
+      "pour_mxn": "780",
+      "bottle_usd": "741",
+      "pour_usd": "48"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Maestro Dobel Blanco",
+      "name_en": "Maestro Dobel Blanco",
+      "bottle_mxn": "3960",
+      "pour_mxn": "288",
+      "bottle_usd": "233",
+      "pour_usd": "17"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Maestro Dobel Diamante",
+      "name_en": "Maestro Dobel Diamante",
+      "bottle_mxn": "4560",
+      "pour_mxn": "336",
+      "bottle_usd": "269",
+      "pour_usd": "20"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Maestro Dobel Reposado",
+      "name_en": "Maestro Dobel Reposado",
+      "bottle_mxn": "4308",
+      "pour_mxn": "312",
+      "bottle_usd": "254",
+      "pour_usd": "19"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Maestro Dobel Añejo",
+      "name_en": "Maestro Dobel Añejo",
+      "bottle_mxn": "5580",
+      "pour_mxn": "431",
+      "bottle_usd": "329",
+      "pour_usd": "26"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Maestro Dobel 50 Extra Añejo",
+      "name_en": "Maestro Dobel 50 Extra Añejo",
+      "bottle_mxn": "13000",
+      "pour_mxn": "765",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Casamigos Blanco",
+      "name_en": "Casamigos Blanco",
+      "bottle_mxn": "3960",
+      "pour_mxn": "288",
+      "bottle_usd": "233",
+      "pour_usd": "17"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Casamigos Reposado",
+      "name_en": "Casamigos Reposado",
+      "bottle_mxn": "4560",
+      "pour_mxn": "336",
+      "bottle_usd": "269",
+      "pour_usd": "20"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Clase Azul Reposado",
+      "name_en": "Clase Azul Reposado",
+      "bottle_mxn": "12588",
+      "pour_mxn": "720",
+      "bottle_usd": "741",
+      "pour_usd": "43"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Patrón Silver",
+      "name_en": "Patrón Silver",
+      "bottle_mxn": "3828",
+      "pour_mxn": "276",
+      "bottle_usd": "226",
+      "pour_usd": "17"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Patrón Reposado",
+      "name_en": "Patrón Reposado",
+      "bottle_mxn": "4188",
+      "pour_mxn": "336",
+      "bottle_usd": "247",
+      "pour_usd": "20"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "1800 Cristalino",
+      "name_en": "1800 Cristalino",
+      "bottle_mxn": "3960",
+      "pour_mxn": "300",
+      "bottle_usd": "233",
+      "pour_usd": "18"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "1800 Añejo",
+      "name_en": "1800 Añejo",
+      "bottle_mxn": "4668",
+      "pour_mxn": "336",
+      "bottle_usd": "275",
+      "pour_usd": "20"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "1800 Blanco",
+      "name_en": "1800 Blanco",
+      "bottle_mxn": "3948",
+      "pour_mxn": "276",
+      "bottle_usd": "233",
+      "pour_usd": "17"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "1800 Reposado",
+      "name_en": "1800 Reposado",
+      "bottle_mxn": "4068",
+      "pour_mxn": "300",
+      "bottle_usd": "240",
+      "pour_usd": "18"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "1800 Milenio",
+      "name_en": "1800 Milenio",
+      "bottle_mxn": "11700",
+      "pour_mxn": "689",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Tequila",
+      "name_es": "El Jefe Blanco",
+      "name_en": "El Jefe Blanco",
+      "bottle_mxn": "3000",
+      "pour_mxn": "336",
+      "bottle_usd": "177",
+      "pour_usd": "20"
+    },
+    {
+      "category": "Tequila",
+      "name_es": "La Santa Reposado Rosa Oro 24K",
+      "name_en": "La Santa Reposado Rosa Oro 24K",
+      "bottle_mxn": "10000",
+      "pour_mxn": "589",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Tequila",
+      "name_es": "La Santa Añejo Cristalino Oro 24K",
+      "name_en": "La Santa Añejo Cristalino Oro 24K",
+      "bottle_mxn": "9500",
+      "pour_mxn": "559",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Tequila",
+      "name_es": "Iztic Reposado",
+      "name_en": "Iztic Reposado",
+      "bottle_mxn": "6500",
+      "pour_mxn": "520",
+      "bottle_usd": "383",
+      "pour_usd": "31"
+    },
+    {
+      "category": "Vodka",
+      "name_es": "Absolut Azul",
+      "name_en": "Absolut Blue",
+      "bottle_mxn": "2640",
+      "pour_mxn": "180",
+      "bottle_usd": "156",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Vodka",
+      "name_es": "Smirnoff",
+      "name_en": "Smirnoff",
+      "bottle_mxn": "2640",
+      "pour_mxn": "180",
+      "bottle_usd": "156",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Vodka",
+      "name_es": "Smirnoff Tamarindo",
+      "name_en": "Smirnoff Tamarind",
+      "bottle_mxn": "2640",
+      "pour_mxn": "180",
+      "bottle_usd": "156",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Vodka",
+      "name_es": "Stolichnaya",
+      "name_en": "Stolichnaya",
+      "bottle_mxn": "3000",
+      "pour_mxn": "180",
+      "bottle_usd": "177",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Vodka",
+      "name_es": "Belvedere",
+      "name_en": "Belvedere",
+      "bottle_mxn": "3480",
+      "pour_mxn": "250",
+      "bottle_usd": "205",
+      "pour_usd": "15"
+    },
+    {
+      "category": "Vodka",
+      "name_es": "Grey Goose",
+      "name_en": "Grey Goose",
+      "bottle_mxn": "3348",
+      "pour_mxn": "280",
+      "bottle_usd": "197",
+      "pour_usd": "17"
+    },
+    {
+      "category": "Vodka",
+      "name_es": "Ketel One",
+      "name_en": "Ketel One",
+      "bottle_mxn": "3000",
+      "pour_mxn": "180",
+      "bottle_usd": "177",
+      "pour_usd": "11"
+    },
+    {
+      "category": "Vodka",
+      "name_es": "Tito's",
+      "name_en": "Tito's",
+      "bottle_mxn": "3180",
+      "pour_mxn": "250",
+      "bottle_usd": "188",
+      "pour_usd": "16"
+    }
+  ],
+  "hookahs": [
+    {
+      "name_es": "Hookah",
+      "name_en": "Hookah",
+      "price_mxn": "1500",
+      "price_usd": "89"
+    },
+    {
+      "name_es": "Recarga",
+      "name_en": "Refill",
+      "price_mxn": "600",
+      "price_usd": "35"
+    }
+  ],
+  "flavors": [
+    {
+      "group_es": "Frutales",
+      "group_en": "Fruits",
+      "items": [
+        [
+          "Berries",
+          "Berry"
+        ],
+        [
+          "Doble manzana",
+          "Two Apple"
+        ],
+        [
+          "Cereza",
+          "Cherry"
+        ],
+        [
+          "Sandía",
+          "Watermelon"
+        ]
+      ]
+    },
+    {
+      "group_es": "Frescos",
+      "group_en": "Fresh",
+      "items": [
+        [
+          "Arándano y menta",
+          "Blueberry & Mint"
+        ],
+        [
+          "Menta / Blue Dragon",
+          "Mint / Blue Dragon"
+        ],
+        [
+          "Limón con menta",
+          "Lemon with Mint"
+        ]
+      ]
+    },
+    {
+      "group_es": "Jugosos",
+      "group_en": "Juices",
+      "items": [
+        [
+          "Vainilla",
+          "Vanilla"
+        ],
+        [
+          "Coco",
+          "Coconut"
+        ],
+        [
+          "Mi amor",
+          "My Love"
+        ]
+      ]
+    },
+    {
+      "group_es": "Exóticos y especiales",
+      "group_en": "Exotics & Specials",
+      "items": [
+        [
+          "Love 66",
+          "Love 66"
+        ],
+        [
+          "Berlín",
+          "Berlin"
+        ],
+        [
+          "Skyfall",
+          "Skyfall"
+        ]
+      ]
+    }
+  ],
+  "food": [
+    {
+      "name_es": "Costillas BBQ",
+      "name_en": "BBQ Ribs",
+      "desc_es": "Costillas ahumadas glaseadas con salsa BBQ de la casa.",
+      "desc_en": "Wood-smoked ribs glazed with house BBQ sauce.",
+      "price_usd": "33",
+      "price_mxn": ""
+    },
+    {
+      "name_es": "Papas naturales",
+      "name_en": "Classic Fries",
+      "desc_es": "Papas fritas clásicas sazonadas con sal de mar.",
+      "desc_en": "Classic fries seasoned with sea salt.",
+      "price_usd": "14",
+      "price_mxn": ""
+    },
+    {
+      "name_es": "Papas Balam",
+      "name_en": "Balam Fries",
+      "desc_es": "Papas crujientes con la mezcla de especias Balam.",
+      "desc_en": "Crispy fries tossed in Balam spice mix.",
+      "price_usd": "22",
+      "price_mxn": ""
+    },
+    {
+      "name_es": "Aros de cebolla",
+      "name_en": "Onion Rings",
+      "desc_es": "Aros de cebolla crujientes servidos con salsas.",
+      "desc_en": "Crispy onion rings served with dipping sauces.",
+      "price_usd": "12",
+      "price_mxn": ""
+    },
+    {
+      "name_es": "Elote Balam",
+      "name_en": "Balam Corn",
+      "desc_es": "Elote a la parrilla con mantequilla, aderezo y queso rallado.",
+      "desc_en": "Grilled corn with butter, dressing and grated cheese.",
+      "price_usd": "18",
+      "price_mxn": ""
+    },
+    {
+      "name_es": "Boneless",
+      "name_en": "Boneless Chicken",
+      "desc_es": "Trozos de pechuga empanizados con salsa Buffalo.",
+      "desc_en": "Breaded chicken breast bites tossed in Buffalo sauce.",
+      "price_usd": "24",
+      "price_mxn": ""
+    },
+    {
+      "name_es": "Alitas (6 piezas)",
+      "name_en": "Chicken Wings (6 pcs)",
+      "desc_es": "Alitas de pollo doradas con salsa.",
+      "desc_en": "Golden chicken wings with sauce.",
+      "price_usd": "24",
+      "price_mxn": ""
+    },
+    {
+      "name_es": "Alitas (10 piezas)",
+      "name_en": "Chicken Wings (10 pcs)",
+      "desc_es": "Alitas de pollo doradas con salsa.",
+      "desc_en": "Golden chicken wings with sauce.",
+      "price_usd": "40",
+      "price_mxn": ""
+    },
+    {
+      "name_es": "Platón Balam",
+      "name_en": "Balam Platter",
+      "desc_es": "Boneless, costillas BBQ, seis alitas y papas fritas.",
+      "desc_en": "Boneless, BBQ ribs, six wings and fries.",
+      "price_usd": "109",
+      "price_mxn": ""
+    }
+  ]
+};

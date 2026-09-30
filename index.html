@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="Menú digital bilingüe de BALAM NIGHT CLUB. Drinks, bottles, hookahs and food.">
+<title>BALAM NIGHT CLUB | Menú Digital</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-glow"></div>
+  <img class="logo" src="assets/balam-logo.jpeg" alt="Logo BALAM NIGHT CLUB">
+  <p class="eyebrow" data-i18n="eyebrow">MENÚ DIGITAL · CABO NIGHTLIFE</p>
+  <h1 data-i18n="welcome">ELIGE TU EXPERIENCIA</h1>
+  <p class="sub" data-i18n="subtitle">Bebidas, hookahs y comida para disfrutar la noche.</p>
+  <div class="language" aria-label="Language selector">
+    <button id="esBtn" class="active" type="button">ESPAÑOL</button>
+    <button id="enBtn" type="button">ENGLISH</button>
+  </div>
+</header>
+<nav class="tabs" aria-label="Menu categories">
+  <button class="tab active" data-tab="drinks" data-i18n="drinks">BEBIDAS Y BOTELLAS</button>
+  <button class="tab" data-tab="hookahs" data-i18n="hookahs">HOOKAHS</button>
+  <button class="tab" data-tab="food" data-i18n="food">ALIMENTOS</button>
+</nav>
+<main>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Buscar producto..." aria-label="Search menu">
+    <p data-i18n="pricesNote">Precios independientes en MXN y USD.</p>
+  </div>
+  <section id="drinks" class="panel active">
+    <h2 data-i18n="drinksTitle">Bebidas y botellas</h2>
+    <div id="drinkGroups"></div>
+  </section>
+  <section id="hookahs" class="panel">
+    <h2 data-i18n="hookahTitle">Hookahs</h2>
+    <div id="hookahPrices" class="price-cards"></div>
+    <h3 data-i18n="flavorsTitle">Sabores disponibles</h3>
+    <div id="flavorGroups" class="flavor-grid"></div>
+  </section>
+  <section id="food" class="panel">
+    <h2 data-i18n="foodTitle">Alimentos</h2>
+    <div id="foodGrid" class="food-grid"></div>
+  </section>
+  <p id="empty" class="empty" hidden data-i18n="empty">No se encontraron productos.</p>
+</main>
+<footer>
+  <p class="footer-brand">BALAM NIGHT CLUB</p>
+  <p data-i18n="footer">GOOD VIBES · GREAT MUSIC · UNFORGETTABLE NIGHTS</p>
+  <p class="disclaimer" data-i18n="disclaimer">Consulta disponibilidad con nuestro equipo. Los precios pueden cambiar sin previo aviso.</p>
+</footer>
+<script src="menu-data.js"></script><script src="app.js"></script>
+</body></html>
