@@ -1,6 +1,96 @@
 window.BALAM_MENU = {
   "drinks": [
     {
+      "category": "Champagne",
+      "name_es": "Belaire Rosé",
+      "name_en": "Belaire Rosé",
+      "bottle_mxn": "2550",
+      "pour_mxn": "",
+      "bottle_usd": "150",
+      "pour_usd": ""
+    },
+    {
+      "category": "Champagne",
+      "name_es": "Moët Chandon Brut",
+      "name_en": "Moët Chandon Brut",
+      "bottle_mxn": "5015",
+      "pour_mxn": "",
+      "bottle_usd": "295",
+      "pour_usd": ""
+    },
+    {
+      "category": "Champagne",
+      "name_es": "Moët Chandon Rosé",
+      "name_en": "Moët Chandon Rosé",
+      "bottle_mxn": "6613",
+      "pour_mxn": "",
+      "bottle_usd": "389",
+      "pour_usd": ""
+    },
+    {
+      "category": "Champagne",
+      "name_es": "Moët Ice",
+      "name_en": "Moët Ice",
+      "bottle_mxn": "7208",
+      "pour_mxn": "",
+      "bottle_usd": "424",
+      "pour_usd": ""
+    },
+    {
+      "category": "Champagne",
+      "name_es": "Moët Ice Rosé",
+      "name_en": "Moët Ice Rosé",
+      "bottle_mxn": "7514",
+      "pour_mxn": "",
+      "bottle_usd": "442",
+      "pour_usd": ""
+    },
+    {
+      "category": "Champagne",
+      "name_es": "Veuve Clicquot Brut",
+      "name_en": "Veuve Clicquot Brut",
+      "bottle_mxn": "5525",
+      "pour_mxn": "",
+      "bottle_usd": "325",
+      "pour_usd": ""
+    },
+    {
+      "category": "Champagne",
+      "name_es": "Armand de Brignac Gold",
+      "name_en": "Armand de Brignac Gold",
+      "bottle_mxn": "20009",
+      "pour_mxn": "",
+      "bottle_usd": "1177",
+      "pour_usd": ""
+    },
+    {
+      "category": "Champagne",
+      "name_es": "Dom Pérignon",
+      "name_en": "Dom Pérignon",
+      "bottle_mxn": "21828",
+      "pour_mxn": "",
+      "bottle_usd": "1284",
+      "pour_usd": ""
+    },
+    {
+      "category": "Champagne",
+      "name_es": "Dom Pérignon Luminous",
+      "name_en": "Dom Pérignon Luminous",
+      "bottle_mxn": "28679",
+      "pour_mxn": "",
+      "bottle_usd": "1687",
+      "pour_usd": ""
+    },
+    {
+      "category": "Champagne",
+      "name_es": "Champagne Cristal",
+      "name_en": "Champagne Cristal",
+      "bottle_mxn": "22406",
+      "pour_mxn": "",
+      "bottle_usd": "1318",
+      "pour_usd": ""
+    },
+    {
       "category": "Rum",
       "name_es": "Bacardí Carta Blanca",
       "name_en": "Bacardi Carta Blanca",
