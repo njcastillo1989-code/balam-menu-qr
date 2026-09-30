@@ -4,8 +4,8 @@ window.BALAM_MENU = {
       "category": "Rum",
       "name_es": "Bacardí Carta Blanca",
       "name_en": "Bacardi Carta Blanca",
-      "bottle_mxn": "2000",
-      "pour_mxn": "150",
+      "bottle_mxn": "2300",
+      "pour_mxn": "180",
       "bottle_usd": "136",
       "pour_usd": "11"
     },
