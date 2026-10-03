@@ -593,6 +593,51 @@ window.BALAM_MENU = {
       "pour_mxn": "280",
       "bottle_usd": "282",
       "pour_usd": "16"
+    },
+    {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
     }
   ],
   "hookahs": [
