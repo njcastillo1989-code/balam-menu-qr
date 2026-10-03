@@ -1,15 +1,6 @@
 window.BALAM_MENU = {
   "drinks": [
     {
-      "category": "Gin",
-      "name_es": "Hendricks",
-      "name_en": "Hendricks",
-      "bottle_mxn": "3500",
-      "pour_mxn": "250",
-      "bottle_usd": "206",
-      "pour_usd": "15"
-    },
-    {
       "category": "Champagne",
       "name_es": "Moët Chandon Brut",
       "name_en": "Moët Chandon Brut",
@@ -136,6 +127,51 @@ window.BALAM_MENU = {
       "pour_usd": "13"
     },
     {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
+      "category": "Rum",
+      "name_es": "Nuevo producto",
+      "name_en": "New product",
+      "bottle_mxn": "",
+      "pour_mxn": "",
+      "bottle_usd": "",
+      "pour_usd": ""
+    },
+    {
       "category": "Cognac & Brandy",
       "name_es": "Hennessy VS",
       "name_en": "Hennessy VS",
@@ -188,6 +224,15 @@ window.BALAM_MENU = {
       "pour_mxn": "180",
       "bottle_usd": "148",
       "pour_usd": "11"
+    },
+    {
+      "category": "Gin",
+      "name_es": "Hendricks",
+      "name_en": "Hendricks",
+      "bottle_mxn": "3500",
+      "pour_mxn": "250",
+      "bottle_usd": "206",
+      "pour_usd": "15"
     },
     {
       "category": "Gin",
@@ -602,51 +647,6 @@ window.BALAM_MENU = {
       "pour_mxn": "280",
       "bottle_usd": "282",
       "pour_usd": "16"
-    },
-    {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
-    },
-    {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
-    },
-    {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
-    },
-    {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
-    },
-    {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
     }
   ],
   "hookahs": [
