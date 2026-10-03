@@ -1,6 +1,15 @@
 window.BALAM_MENU = {
   "drinks": [
     {
+      "category": "Gin",
+      "name_es": "Hendricks",
+      "name_en": "Hendricks",
+      "bottle_mxn": "3500",
+      "pour_mxn": "250",
+      "bottle_usd": "206",
+      "pour_usd": "15"
+    },
+    {
       "category": "Champagne",
       "name_es": "Moët Chandon Brut",
       "name_en": "Moët Chandon Brut",
