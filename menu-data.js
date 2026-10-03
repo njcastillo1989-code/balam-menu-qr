@@ -2,92 +2,83 @@ window.BALAM_MENU = {
   "drinks": [
     {
       "category": "Champagne",
-      "name_es": "Belaire Rosé",
-      "name_en": "Belaire Rosé",
-      "bottle_mxn": "2550",
-      "pour_mxn": "",
-      "bottle_usd": "150",
-      "pour_usd": ""
-    },
-    {
-      "category": "Champagne",
       "name_es": "Moët Chandon Brut",
       "name_en": "Moët Chandon Brut",
-      "bottle_mxn": "5015",
+      "bottle_mxn": "5100",
       "pour_mxn": "",
-      "bottle_usd": "295",
+      "bottle_usd": "300",
       "pour_usd": ""
     },
     {
       "category": "Champagne",
       "name_es": "Moët Chandon Rosé",
       "name_en": "Moët Chandon Rosé",
-      "bottle_mxn": "6613",
+      "bottle_mxn": "6700",
       "pour_mxn": "",
-      "bottle_usd": "389",
+      "bottle_usd": "394",
       "pour_usd": ""
     },
     {
       "category": "Champagne",
       "name_es": "Moët Ice",
       "name_en": "Moët Ice",
-      "bottle_mxn": "7208",
+      "bottle_mxn": "7500",
       "pour_mxn": "",
-      "bottle_usd": "424",
+      "bottle_usd": "441",
       "pour_usd": ""
     },
     {
       "category": "Champagne",
       "name_es": "Moët Ice Rosé",
       "name_en": "Moët Ice Rosé",
-      "bottle_mxn": "7514",
+      "bottle_mxn": "7700",
       "pour_mxn": "",
-      "bottle_usd": "442",
+      "bottle_usd": "453",
       "pour_usd": ""
     },
     {
       "category": "Champagne",
       "name_es": "Veuve Clicquot Brut",
       "name_en": "Veuve Clicquot Brut",
-      "bottle_mxn": "5525",
+      "bottle_mxn": "6200",
       "pour_mxn": "",
-      "bottle_usd": "325",
+      "bottle_usd": "365",
       "pour_usd": ""
     },
     {
       "category": "Champagne",
       "name_es": "Armand de Brignac Gold",
       "name_en": "Armand de Brignac Gold",
-      "bottle_mxn": "20009",
+      "bottle_mxn": "29000",
       "pour_mxn": "",
-      "bottle_usd": "1177",
+      "bottle_usd": "1706",
       "pour_usd": ""
     },
     {
       "category": "Champagne",
       "name_es": "Dom Pérignon",
       "name_en": "Dom Pérignon",
-      "bottle_mxn": "21828",
+      "bottle_mxn": "23000",
       "pour_mxn": "",
-      "bottle_usd": "1284",
+      "bottle_usd": "1353",
       "pour_usd": ""
     },
     {
       "category": "Champagne",
       "name_es": "Dom Pérignon Luminous",
       "name_en": "Dom Pérignon Luminous",
-      "bottle_mxn": "28679",
+      "bottle_mxn": "27000",
       "pour_mxn": "",
-      "bottle_usd": "1687",
+      "bottle_usd": "1589",
       "pour_usd": ""
     },
     {
       "category": "Champagne",
       "name_es": "Champagne Cristal",
       "name_en": "Champagne Cristal",
-      "bottle_mxn": "22406",
+      "bottle_mxn": "25000",
       "pour_mxn": "",
-      "bottle_usd": "1318",
+      "bottle_usd": "1470",
       "pour_usd": ""
     },
     {
