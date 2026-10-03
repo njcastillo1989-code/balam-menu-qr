@@ -127,51 +127,6 @@ window.BALAM_MENU = {
       "pour_usd": "13"
     },
     {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
-    },
-    {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
-    },
-    {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
-    },
-    {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
-    },
-    {
-      "category": "Rum",
-      "name_es": "Nuevo producto",
-      "name_en": "New product",
-      "bottle_mxn": "",
-      "pour_mxn": "",
-      "bottle_usd": "",
-      "pour_usd": ""
-    },
-    {
       "category": "Cognac & Brandy",
       "name_es": "Hennessy VS",
       "name_en": "Hennessy VS",
