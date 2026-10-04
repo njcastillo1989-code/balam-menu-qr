@@ -656,6 +656,15 @@ window.BALAM_MENU = {
       "pour_mxn": "280",
       "bottle_usd": "220",
       "pour_usd": "17"
+    },
+    {
+      "category": "Mezcal",
+      "name_es": "400 Conejos Reposado",
+      "name_en": "400 Conejos Reposado",
+      "bottle_mxn": "4250",
+      "pour_mxn": "320",
+      "bottle_usd": "250",
+      "pour_usd": "19"
     }
   ],
   "hookahs": [
