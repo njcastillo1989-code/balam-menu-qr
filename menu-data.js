@@ -629,6 +629,15 @@ window.BALAM_MENU = {
       "pour_mxn": "",
       "bottle_usd": "536",
       "pour_usd": ""
+    },
+    {
+      "category": "MISILES / BIG SIZE",
+      "name_es": "Moet 1.75 LTS",
+      "name_en": "Moet 1.75 LTS",
+      "bottle_mxn": "13200",
+      "pour_mxn": "",
+      "bottle_usd": "777",
+      "pour_usd": ""
     }
   ],
   "hookahs": [
