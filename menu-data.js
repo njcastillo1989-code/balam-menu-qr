@@ -638,6 +638,15 @@ window.BALAM_MENU = {
       "pour_mxn": "",
       "bottle_usd": "777",
       "pour_usd": ""
+    },
+    {
+      "category": "MISILES / BIG SIZE",
+      "name_es": "Moet 3 LTS",
+      "name_en": "Moet 3 LTS",
+      "bottle_mxn": "30000",
+      "pour_mxn": "",
+      "bottle_usd": "1765",
+      "pour_usd": ""
     }
   ],
   "hookahs": [
