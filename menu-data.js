@@ -688,6 +688,12 @@ window.BALAM_MENU = {
       "name_en": "Refill",
       "price_mxn": "1000",
       "price_usd": "59"
+    },
+    {
+      "name_es": "Carbones",
+      "name_en": "Coals",
+      "price_mxn": "120",
+      "price_usd": "7"
     }
   ],
   "flavors": [
