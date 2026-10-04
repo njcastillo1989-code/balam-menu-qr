@@ -602,6 +602,15 @@ window.BALAM_MENU = {
       "pour_mxn": "280",
       "bottle_usd": "282",
       "pour_usd": "16"
+    },
+    {
+      "category": "MISILES / BIG SIZE",
+      "name_es": "Maestro Dobel 3 LTS",
+      "name_en": "Maestro Dobel 3 LTS",
+      "bottle_mxn": "16000",
+      "pour_mxn": "",
+      "bottle_usd": "942",
+      "pour_usd": ""
     }
   ],
   "hookahs": [
@@ -761,5 +770,15 @@ window.BALAM_MENU = {
       "price_usd": "109",
       "price_mxn": ""
     }
+  ],
+  "drink_categories": [
+    "Champagne",
+    "Rum",
+    "Cognac & Brandy",
+    "Gin",
+    "Whisky",
+    "Tequila",
+    "Vodka",
+    "MISILES / BIG SIZE"
   ]
 };
