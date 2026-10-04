@@ -647,7 +647,7 @@ window.BALAM_MENU = {
       "items": [
         [
           "Arándano y menta",
-          "Blueberry & Mint"
+          "Blueberry & Ment"
         ],
         [
           "Menta / Blue Dragon",
