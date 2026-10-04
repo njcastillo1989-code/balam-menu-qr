@@ -670,10 +670,10 @@ window.BALAM_MENU = {
       "category": "Mezcal",
       "name_es": "Monte Lobos",
       "name_en": "Monte Lobos",
-      "bottle_mxn": "2400",
-      "pour_mxn": "300",
-      "bottle_usd": "142",
-      "pour_usd": "18"
+      "bottle_mxn": "4080",
+      "pour_mxn": "350",
+      "bottle_usd": "240",
+      "pour_usd": "21"
     }
   ],
   "hookahs": [
