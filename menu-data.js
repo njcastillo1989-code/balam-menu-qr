@@ -652,15 +652,15 @@ window.BALAM_MENU = {
   "hookahs": [
     {
       "name_es": "Hookah",
-      "name_en": "Hookah",
+      "name_en": "Shisha",
       "price_mxn": "1500",
       "price_usd": "89"
     },
     {
       "name_es": "Recarga",
       "name_en": "Refill",
-      "price_mxn": "600",
-      "price_usd": "35"
+      "price_mxn": "1000",
+      "price_usd": "59"
     }
   ],
   "flavors": [
