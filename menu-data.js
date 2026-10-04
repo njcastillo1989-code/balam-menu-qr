@@ -608,45 +608,45 @@ window.BALAM_MENU = {
       "name_es": "Maestro Dobel 3 LTS",
       "name_en": "Maestro Dobel 3 LTS",
       "bottle_mxn": "16000",
-      "pour_mxn": "",
+      "pour_mxn": "0",
       "bottle_usd": "942",
-      "pour_usd": ""
+      "pour_usd": "0"
     },
     {
       "category": "MISILES / BIG SIZE",
       "name_es": "Maestro Dobel 1.75 LTS",
       "name_en": "Maestro Dobel 1.75 LTS",
       "bottle_mxn": "9100",
-      "pour_mxn": "",
+      "pour_mxn": "0",
       "bottle_usd": "536",
-      "pour_usd": ""
+      "pour_usd": "0"
     },
     {
       "category": "MISILES / BIG SIZE",
       "name_es": "Bel Vedere 1.75 LTS",
       "name_en": "Bel Vedere 1.75 LTS",
       "bottle_mxn": "9100",
-      "pour_mxn": "",
+      "pour_mxn": "0",
       "bottle_usd": "536",
-      "pour_usd": ""
+      "pour_usd": "0"
     },
     {
       "category": "MISILES / BIG SIZE",
       "name_es": "Moet 1.75 LTS",
       "name_en": "Moet 1.75 LTS",
       "bottle_mxn": "13200",
-      "pour_mxn": "",
+      "pour_mxn": "0",
       "bottle_usd": "777",
-      "pour_usd": ""
+      "pour_usd": "0"
     },
     {
       "category": "MISILES / BIG SIZE",
       "name_es": "Moet 3 LTS",
       "name_en": "Moet 3 LTS",
       "bottle_mxn": "30000",
-      "pour_mxn": "",
+      "pour_mxn": "0",
       "bottle_usd": "1765",
-      "pour_usd": ""
+      "pour_usd": "0"
     },
     {
       "category": "Mezcal",
