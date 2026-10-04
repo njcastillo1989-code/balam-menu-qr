@@ -647,6 +647,15 @@ window.BALAM_MENU = {
       "pour_mxn": "",
       "bottle_usd": "1765",
       "pour_usd": ""
+    },
+    {
+      "category": "Mezcal",
+      "name_es": "400 Conejos Joven",
+      "name_en": "400 Conejos Joven",
+      "bottle_mxn": "3740",
+      "pour_mxn": "280",
+      "bottle_usd": "220",
+      "pour_usd": "17"
     }
   ],
   "hookahs": [
@@ -815,6 +824,7 @@ window.BALAM_MENU = {
     "Whisky",
     "Tequila",
     "Vodka",
-    "MISILES / BIG SIZE"
+    "MISILES / BIG SIZE",
+    "Mezcal"
   ]
 };
