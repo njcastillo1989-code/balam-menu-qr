@@ -722,14 +722,6 @@ window.BALAM_MENU = {
       "price_mxn": ""
     },
     {
-      "name_es": "Aros de cebolla",
-      "name_en": "Onion Rings",
-      "desc_es": "Aros de cebolla crujientes servidos con salsas.",
-      "desc_en": "Crispy onion rings served with dipping sauces.",
-      "price_usd": "12",
-      "price_mxn": ""
-    },
-    {
       "name_es": "Elote Balam",
       "name_en": "Balam Corn",
       "desc_es": "Elote a la parrilla con mantequilla, aderezo y queso rallado.",
@@ -764,8 +756,8 @@ window.BALAM_MENU = {
     {
       "name_es": "Platón Balam",
       "name_en": "Balam Platter",
-      "desc_es": "Boneless, costillas BBQ, seis alitas y papas fritas.",
-      "desc_en": "Boneless, BBQ ribs, six wings and fries.",
+      "desc_es": "Boneless, costillas BBQ, doce alitas y papas fritas.",
+      "desc_en": "Boneless, BBQ ribs, Twelve wings and fries.",
       "price_usd": "109",
       "price_mxn": ""
     }
