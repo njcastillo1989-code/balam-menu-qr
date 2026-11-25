@@ -51,7 +51,7 @@ window.BALAM_MENU = {
       "name_en": "Armand de Brignac Gold",
       "bottle_mxn": "50000",
       "pour_mxn": "",
-      "bottle_usd": "1706",
+      "bottle_usd": "2942",
       "pour_usd": ""
     },
     {
